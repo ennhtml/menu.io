@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Menu É Nintendo ou Nada</title>
+<style>
+
+	.menu{
+		width:100%;
+		height: 50px;
+	    background-color: none;
+		font-family: 'arial';
+	}
+	.menu ul{
+		list-style:none;
+		position: relative;
+		margin: 0;
+		padding: 0;
+	}
+	.menu ul li{
+		width: 200px;
+		float: left;
+	}
+	.menu a{
+		padding: 15px;
+		display: block;
+		text-decoration: none;
+		text-align: left;
+		color: black;
+	}
+	.menu img{
+		width: 40px;
+		height: 30px;
+		float: inherit;
+	}
+	.menu ul li ul{
+		margin: 0;
+		padding: 0;
+		
+	}
+	.menu ul li ul a{
+		padding: 15px;
+		display: block;
+		text-decoration: none;
+		text-align: center;
+	}
+	.menu ul li ul img{
+		width: 30px;
+		height: 15x;
+		float: left;
+	}
+	.menu ul ul{
+		position: absolute;
+		visibility: hidden;
+	}
+	.menu ul li:hover ul{
+		visibility: visible
+	}
+	.menu a:hover{
+		background-color: firebrick;
+		color: green;
+	}
+	
+	</style>
+</head>
+<body>
+
+
+<nav class="menu">
+  <ul>
+    <li><a href="www.enintendoounada.com"><img src="Icones/home.png">Home</a></li>
+    <li><a><img src="Icones/especiais.png" >Especiais</a>
+      <ul>
+        <li><a href="http://www.enintendoounada.com/especiaisereviews"><img src="Icones/rev.png" >Especiais/Reviews</a></li>
+        <li><a href="http://www.enintendoounada.com/pokemongeneration"><img src="Icones/pokemon.png" >Pokémon Generation</a></li>
+      </ul>
+    </li>
+    <li><a href="http://www.enintendoounada.com/switch"><img src="Icones/switch.png"> Switch</a></li>
+    <li><a href="http://www.enintendoounada.com/wii-u"><img src="Icones/wiiu.png"> Wii U</a></li>
+    <li><a href="http://www.enintendoounada.com/3ds"><img src="Icones/n3ds.png"> N3DS</a></li>
+    <li><a href="http://www.enintendoounada.com/mobile"><img src="Icones/mobile.png">Mobile</a></li>
+  </ul>
+</nav>
+
+
+
+
+</body>
+</html>
